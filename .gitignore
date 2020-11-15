@@ -7,5 +7,6 @@ SOAApplication/SOAComposite/SOA/SCA-INF/*diagram*
 **/.data
 **/classes
 **/target
+**/deploy
 **/~
 OSB/Samples/SBApplication/Project1/**
