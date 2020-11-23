@@ -2,14 +2,6 @@ package com.singhpora.jcs.restexcelapi;
 
 import java.io.ByteArrayOutputStream;
 
-import java.io.File;
-
-import java.io.FileOutputStream;
-import java.io.OutputStream;
-
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-
 import java.util.Date;
 
 import javax.ws.rs.GET;
@@ -198,25 +190,5 @@ public class RestExcelAPI {
     private Object getConnection() {
         return null;
     }
-    
-
-    public static void main(String[] args) throws Exception {
-        RestExcelAPI api = new RestExcelAPI();
-        File file = new File("/tmp/restexcelapi.xls");
-        OutputStream 
-            fileOutputStream 
-            = new FileOutputStream(file); 
-        
-        // Starts writing the bytes in it 
-        fileOutputStream.write(api.getExcelStream("", null).toByteArray()); 
-        System.out.println("Successfully"
-                           + " byte inserted"); 
-        
-        // Close the file 
-        api.getExcelStream("", null).close(); 
-        
-        System.out.println(file); 
-    }
-    
-   
+       
 }

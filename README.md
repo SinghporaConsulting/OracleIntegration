@@ -3,6 +3,7 @@ More in the associated blog posts on http://weblog.singhpora.com
 ## Oracle Integration Cloud
 ## Oracle SOA
 ## Oracle Service Bus
+## Java Cloud Service (JCS)
 
 --------------------
 ### Sample: Recursive calls in Oracle Integration Cloud Flows (Scenario: Paginated API for large Data Sets)
@@ -40,3 +41,9 @@ Located in: OSB/SBAudit
 
 More on Oracle Diagnostics Logging:
 https://docs.oracle.com/middleware/12211/lcm/ASADM/logs.htm#ASADM215
+
+
+--------------------
+### Java Cloud Service - Custom Java functionality on Oracle PaaS/JCS cloud described using a Rest API for Excel generation
+https://weblog.singhpora.com/2020/11/Excel-generation-custom-java-functionality-on-jcs-oracle-paas-cloud.html
+Located in: JCS/RestExcelAPI
